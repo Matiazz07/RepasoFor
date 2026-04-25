@@ -440,3 +440,15 @@ tr:hover td strong {
         transform: translateX(0) skewX(0);
     }
 }
+
+footer {
+    position: fixed;
+    color: #ff5c88;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    text-align: center;
+}
